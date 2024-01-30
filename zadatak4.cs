@@ -27,7 +27,7 @@ class Program
         else
         {
 
-            Console.WriteLine("Netocan unos. Molim da unesite ispravne vrijednosti.");
+            Console.WriteLine("Netocan unos. Unesite ispravne vrijednosti.");
 
         }
     }
