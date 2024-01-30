@@ -5,7 +5,7 @@ namespace Sortiranjestringova
     class Program
 
     {
-        static void Main(string[] args)
+        static void Main()
 
         {
             Console.WriteLine("Unesite prvu rijec:");
@@ -18,7 +18,7 @@ namespace Sortiranjestringova
 
             string[] stringovi = { prviString, drugiString };
 
-            Array.Sort(stringovi);
+            array.Sort(stringovi);
 
             Console.WriteLine("Sortirani rijeci:");
 
