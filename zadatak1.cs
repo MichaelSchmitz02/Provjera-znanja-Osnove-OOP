@@ -8,13 +8,13 @@ namespace Zamjenarazmaka
             
         {
             
-            Console.WriteLine("Unesite rečenicu:");
+            Console.WriteLine("Unesite jednu recenicu:");
             
             string recenica = Console.ReadLine();
 
             string zamijenjenaRecenica = recenica.Replace(" ", "_");
 
-            Console.WriteLine("Rečenica s zamijenjenim razmacima:");
+            Console.WriteLine("Recenica sa zamijenjenim razmacima:");
             
             Console.WriteLine(zamijenjenaRecenica);
         }
