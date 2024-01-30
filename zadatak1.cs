@@ -1,17 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
-namespace zadatak1
+namespace Zamjenarazmaka
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
+            
         {
-            Console.WriteLine("Unesite bilo koju recenicu");
-            return;
+            
+            Console.WriteLine("Unesite rečenicu:");
+            
+            string recenica = Console.ReadLine();
+
+            string zamijenjenaRecenica = recenica.Replace(" ", "_");
+
+            Console.WriteLine("Rečenica s zamijenjenim razmacima:");
+            
+            Console.WriteLine(zamijenjenaRecenica);
         }
     }
 }
